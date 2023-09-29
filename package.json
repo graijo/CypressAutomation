@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {"cypress:open": "cypress open"},
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.2.0"
-  }
+    "cypress": "^13.2.0",
+    "jasmine": "14.0"
+  },
+  "console": "externalTerminal"
 }
