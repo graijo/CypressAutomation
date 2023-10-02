@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"cypress:open": "cypress open"},
+  "scripts": {"cypress:open": "cypress open",
+  "start": "node cypress/integration/JsCmdTests1.js"},
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.2.0",
-    "jasmine": "14.0"
+    "jasmine": ""
   },
   "console": "externalTerminal"
 }

@@ -23,3 +23,16 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('TraverseElementAndClickBasedOnIndex', (phoneName) => { 
+    cy.get('h4.card-title').each(($el,index,$list)=>{
+        if($el.text().includes(phoneName)){
+            cy.log('inside each')
+
+            cy.get('button[class="btn btn-info"]').eq(index).click()
+            cy.get('#navbarResponsive > .navbar-nav > .nav-item > .nav-link').click()
+        }
+
+    })
+ })
+ 

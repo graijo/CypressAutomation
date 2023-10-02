@@ -1,0 +1,8 @@
+{
+    "name":"abcd",
+    "place":"Delhi",
+    "appUrl":"https://rahulshettyacademy.com/AutomationPractice/",
+    "showtxtBox":"#show-textbox",
+    "txtRevealedElement":"#displayed-text",
+    "hidetxtBox":"#hide-textbox"
+}
