@@ -152,7 +152,7 @@ console.log(person1)
 
 //class
 class class1{
-   console.log("abc")
+    
     age=25
     get location(){
         return "Jamaica"
