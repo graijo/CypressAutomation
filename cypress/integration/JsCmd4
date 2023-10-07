@@ -1,0 +1,21 @@
+//call method of class1 in class 2
+//Object creation / method call can be only done in inside constructor , method or or block inside class
+//but free to call out side class 
+class One {
+  write(){
+    console.log("Yes! I did!");
+  }
+}
+
+class Two {
+   constructor() {
+       this.one = new One();
+   }
+
+   tryingMethod(){
+     this.one.write();
+   }
+}
+
+var x = new Two();
+x.tryingMethod();

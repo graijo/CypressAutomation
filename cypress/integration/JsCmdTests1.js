@@ -152,6 +152,7 @@ console.log(person1)
 
 //class
 class class1{
+   console.log("abc")
     age=25
     get location(){
         return "Jamaica"
@@ -168,4 +169,5 @@ let class1Obj=new class1("abc","defg")
 console.log(class1Obj.age)
 class1Obj.fullNamePrint()
 // Export this module
-  module.exports=class1
+//   module.exports=class1
+// export default class1
