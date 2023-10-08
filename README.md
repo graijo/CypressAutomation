@@ -31,3 +31,9 @@ https://stackoverflow.com/questions/73249627/how-do-you-log-an-objects-details-t
 
 # access-a-variable-outside-a-promise-then-method
 https://stackoverflow.com/questions/47559836/how-can-i-access-a-variable-outside-a-promise-then-method
+
+# data base DB setup
+https://www.npmjs.com/package/cypress-sql-server
+
+# best site to learn Java script
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach

@@ -34,8 +34,12 @@ describe('Read xlx files', function () {
    
     cy.log("csvGlobalData =",csvGlobalData[3].firstName)
     csvGlobalData.forEach((csvGlobalData) => cy.log(csvGlobalData["firstName"] + " " + csvGlobalData["lastName"] + " " + csvGlobalData["Email"] + " " + csvGlobalData["Telephone"]));
-    csvGlobalData.forEach((csvGlobalData) => cy.log("first") &
-      cy.log("2nd"));
+    csvGlobalData.forEach((csvGlobalData) =>{
+
+      cy.log("first-open csv object . foreach inside it spec")
+      cy.log("2nd -open braces and write code there ")
+    }
+   );
 
       csvGlobalData.forEach((csvGlobalData)=>{cy.log("abcdfg")})
 
