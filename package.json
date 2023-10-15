@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {"cypress:open": "cypress open",
   "start": "node cypress/integration/JsCmdTests1.js"},
-  "author": "",
+  "author": "Antony Graijo Joy",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.2.0",
     "jasmine": "",
-    "neat-csv":"5.1.0"
+    "neat-csv":"^5.1.0"
   },
   "console": "externalTerminal"
 }

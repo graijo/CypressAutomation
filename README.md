@@ -37,3 +37,9 @@ https://www.npmjs.com/package/cypress-sql-server
 
 # best site to learn Java script
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+# cypress chai assertions
+https://docs.cypress.io/guides/references/assertions
+
+# invoke 
+https://docs.cypress.io/api/commands/invoke
